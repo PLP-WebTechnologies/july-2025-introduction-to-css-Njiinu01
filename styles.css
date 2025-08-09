@@ -1,1 +1,104 @@
+/* Reset some basic default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styling */
+.site-header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px 30px; /* padding inside the header */
+    margin-bottom: 30px; /* space below header */
+    border: 3px solid #357ABD; /* border to visualize box model */
+    border-radius: 8px;
+}
+
+/* Header title */
+.site-header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation bar */
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px; /* margin outside each link */
+    font-weight: bold;
+    padding: 5px 10px; /* padding inside links */
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for nav links */
+.nav-bar a:hover {
+    background-color: #357ABD;
+    border-color: white;
+}
+
+/* Main content container */
+.content-container {
+    display: flex;
+    gap: 20px; /* space between cards */
+    margin-bottom: 40px;
+}
+
+/* Card sections */
+.card {
+    background-color: white;
+    padding: 20px; /* inside spacing */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Headings inside cards */
+.card h2 {
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+/* Paragraphs inside cards */
+.card p {
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover */
+.btn:hover {
+    background-color: #357ABD;
+}
+
+/* Footer styling */
+.site-footer {
+    text-align: center;
+    color: #777;
+    padding: 15px;
+    border-top: 2px solid #ddd;
+    background-color: #fafafa;
+    border-radius: 8px;
+}
 
